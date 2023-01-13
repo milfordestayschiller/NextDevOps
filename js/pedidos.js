@@ -12,6 +12,6 @@ function alert(mensaje, tipo) {
 
 if (alerta) {
   alerta.addEventListener('click', function () {
-    alert('Los envios son de Lunes a Viernes!', 'success')
+    alert('Los envíos son de Lunes a Viernes de 09:00 a 18:00hrs', 'success')
   })
 }
