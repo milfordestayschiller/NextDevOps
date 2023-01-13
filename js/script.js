@@ -58,6 +58,10 @@ $(document).ready(function() {
             'overlayShow'	:	false,
             'max-width': 500
         });
+////Boton Comprar
+        $(".btn-primary").click( function (params) {
+            alert("El producto ha sido agregado a la canasta de compra")
+        })
 		
 });
 
