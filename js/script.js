@@ -59,7 +59,7 @@ $(document).ready(function() {
             'max-width': 500
         });
 ////Boton Comprar
-        $(".btn-primary").click( function (params) {
+        $(".comprar").click( function (params) {
             alert("El producto ha sido agregado a la canasta de compra")
         })
 		
