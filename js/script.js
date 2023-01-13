@@ -5,7 +5,7 @@ const dia = new Date();
 let dias = semana[dia.getDay()]
 
 const diaNum = new Date()
-let diasNum = diaNum.getDay()
+let diasNum = diaNum.getDate()
 
 const meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
 
@@ -18,13 +18,13 @@ let horaAhora = hora.toLocaleTimeString('es-CL')
 
 const annio = new Date();
 let annios = annio.getFullYear()
-contenedor.innerHTML = 'El dia es ' + dias + '  ' +diasNum + " del mes de " +months+ " año " +annios + ' y la hora es ' +horaAhora
+contenedor.innerHTML = '' + dias + '  ' +diasNum + " de " +months+ " año " +annios + ' y la hora es ' +horaAhora
 
 ////////////////////////NOTAS/////////////////////////////
 
 let notas = document.getElementById('nota')
 notas.addEventListener('click', function () {
-    let ingreseNota =  parseInt(prompt('Hola estimado, por favor ingrese una nota'))
+    let ingreseNota =  parseInt(prompt('Hola estimado/a, por favor ingrese una nota'))
 
     if(ingreseNota >=0 && ingreseNota <= 3) {
         alert('Su nota es deficiente')
