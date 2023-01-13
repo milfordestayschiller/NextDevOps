@@ -7,8 +7,15 @@
   font-family: 'Lobster', cursive;
 }
 
+
 #bodycontacto {
   background-color: rgb(221, 183, 125) !important;
+=======
+/* ----- se cambia estilo fondo by Matias ------------------------ */
+#bodycontacto {
+  background-image: url('./img/ropitaaaa.jpg') !important;
+  padding-bottom: 20%;
+
 
 }
 
@@ -23,6 +30,8 @@
 
 #mensaje {
   height: 50px;
+
+
 }
 
 h2 {
@@ -30,8 +39,14 @@ h2 {
   font-size: 25px;
   font-family: 'Lato', sans-serif;
 }
+
 body {
   background: linear-gradient(white, antiquewhite) rgb(255, 255, 255) !important;
+
+
+
+body {
+  background-color: rgb(255, 255, 255) !important;
   margin: 0 auto;
   padding: 0 auto;
   width: 100%;
@@ -39,7 +54,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+
+}
+
 img {
   width: 100%;
   height: auto;
@@ -49,6 +68,7 @@ img {
 
 .div1 {
   text-align: center;
+
 }
 
 .div {
@@ -93,8 +113,16 @@ li {
 .footer {
   font-family: 'Lato', sans-serif;
 }
+
 #form {
+
   text-align: center;
+  color: rgb(235, 235, 235);
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+
+  font-family: 'Lobster', cursive;
+
 }
 
 .form-control {
@@ -215,11 +243,13 @@ li {
   max-width: 4%;
 }
 
+
 .texto1 {
   color: rgb(150, 150, 150);
 }
 
-.fondo-img {
 
-  background-color: bisque;
+.fondo-img {
+background-color: bisque;
 }
+
